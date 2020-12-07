@@ -45,7 +45,7 @@ The left one is using our method , the right one is using Noisy BCQ.
   <img src="video/h-unsafe.gif" width="400" /> 
 </p>
 
-2. **Parking scenario** : we found that our method will have small steering wheel angle and tend to be stable around the target point while Noisy BCQ will have shaper steering wheel agnle and larger acceleration which is more likely to oscilitate around the target point.
+2. **Parking scenario** : we found that our method will have small steering wheel angle and tend to be stable around the target point while Noisy BCQ will have sharper steering wheel agnle and larger acceleration which is more likely to oscilitate around the target point.
 
 <p float="left">
   <img src="video/p-safe.gif" width="400" />
@@ -56,7 +56,7 @@ The left one is using our method , the right one is using Noisy BCQ.
 <p float="left">
   <img src="video/state-action-visitation.png" width="900" />
 </p>
-We  can  see  from  the  state  action visitation density  plot  that the original BCQ method tends to explore very cautiously with  very  limited  amount  state  and  action  visitations.   On  the other  hand,  the  noisy  BCQ  demonstrates  more  diverse  state and  action  visitation,  even  it  will  explore  some  action  that  it is not common given the same state as BCQ. As a result, the noisy BCQ explore the state action space more efficiently than BCQ. Furthermore, our method can explore nearly the same state range as noisy BCQ but it will tend to explore the action space in a reasonable range, which is due to the safety concern within  our  method.  Combined  with  the  previous  experiment results, we can conclude that our method can achieve the best balance between safety and efficiency among BCQ and noisy BCQ
+We  can  see  from  the  state  action visitation density  plot  that the original BCQ method tends to explore very cautiously with  very  limited  amount  state  and  action  visitations.   On  the other  hand,  the  noisy  BCQ  demonstrates  more  diverse  state and  action  visitation,  even  it  will  explore  some  action  that  are not common given the same states as BCQ. As a result, the noisy BCQ explores the state action space more efficiently than BCQ. Furthermore, our method can explore nearly the same state range as noisy BCQ but it will tend to explore the action space in a reasonable range, which is due to the safety concern within  our  method.  Combined  with  the  previous  experiment results, we can conclude that our method can achieve the best balance between safety and efficiency among BCQ and noisy BCQ.
 
 ### Report
 
