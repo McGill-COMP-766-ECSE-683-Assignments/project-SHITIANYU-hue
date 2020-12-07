@@ -29,17 +29,26 @@ python code/run.py --test True --model_type HER --character Z
 ```
 Settings can be adjusted with different arguments to run.py.
 
+### Baselines
+
+**Noisy  BCQ**:  In  this  version,  we  consider  only  adding exploration  strategy  on  the  policy  from BCQ framework. However, it doesn’t have any safety guarantee. This version is more likely to explore even for unsafe actions.
+
+**Ours**:  An  efficient  and  safe  off-line  reinforcementlearning  method  to  allow  the  agent  can  not  only efficiently  explore  the  action  space  but  also  guarantee  safety。
+
+
 ### Results
 
 The left one is using our method , the right one is using Noisy BCQ.
 
-1. Highway scenario
+1. **Highway scenario** : we found that our method has relative bigger mimum distance than Noisy BCQ while Noisy BCQ's policy is  more aggressive.
+
 <p float="left">
   <img src="video/h-safe.gif" width="400" />
   <img src="video/h-unsafe.gif" width="400" /> 
 </p>
 
-2. Parking scenario
+2. **Parking scenario** : we found that our method will have small steering wheel angle and tend to be stable around the target point while Noisy BCQ will have shaper steering wheel agnle and larger acceleration which is more likely to oscilitate around the target point.
+
 <p float="left">
   <img src="video/p-safe.gif" width="400" />
   <img src="video/p-unsafe.gif" width="400" /> 
