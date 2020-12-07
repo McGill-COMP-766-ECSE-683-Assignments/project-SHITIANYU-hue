@@ -2,8 +2,7 @@
 
 # Assignment-2
 
-# Trajectory Tracking with Hindsight Experience Replay
-
+# Safe and Efficient offline reinforcement learning 
 Method is tested on [highway](https://highway-env.readthedocs.io/) goal conditioned continuous control task
 
 ### Overview
