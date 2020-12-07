@@ -23,11 +23,11 @@ The collected data (state, action, reward, next_state, dones) are saved in:
 ```
 buffers/
 ```
-You could define model type and which character to draw:
+In stable_dynamics.py we define how to calculate the LF risk and in BCQ_g.py we define the exploration strategy and how we jointly optimize them together. You could run our model by:
 ```
-python code/run.py --test True --model_type HER --character Z
+python code/g_main.py 
 ```
-Settings can be adjusted with different arguments to run.py.
+Settings can be adjusted with different arguments to g_main.py.
 
 ### Main Baselines
 
