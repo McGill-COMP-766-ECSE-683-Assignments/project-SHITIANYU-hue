@@ -47,7 +47,7 @@ The left one is using our method , the right one is using Noisy BCQ.
 
 3. Visulization of the state action visitation density
 <p float="left">
-  <img src="video/state-action-visitation.png" width="800" />
+  <img src="video/state-action-visitation.png" width="900" />
 </p>
 
 
