@@ -1,7 +1,5 @@
 # Final project
 
-# Assignment-2
-
 # Safe and Efficient offline reinforcement learning 
 
 ### Abstract
