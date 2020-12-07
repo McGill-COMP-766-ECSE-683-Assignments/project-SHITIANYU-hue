@@ -60,7 +60,7 @@ We  can  see  from  the  state  action visitation density  plot  that the origin
 
 ### Report
 
-[Here](https://github.com/McGill-COMP-766-ECSE-683-Assignments/assignment-2-SHITIANYU-hue/blob/main/ECSE683assignment2_TianyuShi.pdf)
+[Here](https://github.com/McGill-COMP-766-ECSE-683-Assignments/project-SHITIANYU-hue/blob/main/ecse683report.pdf)
 
 ### Contact
 
