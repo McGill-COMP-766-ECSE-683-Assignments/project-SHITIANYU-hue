@@ -21,7 +21,7 @@ The collected data (state, action, reward, next_state, dones) are saved in:
 ```
 buffers/
 ```
-In stable_dynamics.py we define how to calculate the LF risk and in BCQ_g.py we define the exploration strategy and how we jointly optimize them together. You could run our model by:
+In stable_dynamics.py we define how to calculate the LF risk and in BCQ_g.py we define the exploration strategy and how we jointly optimize them. You could run our model by:
 ```
 python code/g_main.py 
 ```
