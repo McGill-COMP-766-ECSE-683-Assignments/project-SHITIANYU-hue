@@ -33,7 +33,7 @@ Settings can be adjusted with different arguments to run.py.
 
 **Noisy  BCQ**:  In  this  version,  we  consider  only  adding exploration  strategy  on  the  policy  from BCQ framework. However, it doesn’t have any safety guarantee. This version is more likely to explore even for unsafe actions.
 
-**Ours**:  An  efficient  and  safe  off-line  reinforcementlearning  method  to  allow  the  agent  can  not  only efficiently  explore  the  action  space  but  also  guarantee  safety。
+**Ours**:  An  efficient  and  safe  off-line  reinforcement learning  method  to  allow  the  agent  can  not  only efficiently  explore  the  action  space  but  also  guarantee  safety.
 
 
 ### Results
