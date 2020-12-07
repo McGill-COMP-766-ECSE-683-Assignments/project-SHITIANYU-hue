@@ -15,13 +15,13 @@ Networks are trained using [PyTorch 1.4](https://github.com/pytorch/pytorch) and
 
 ### Overview
 
-Train the model:
+Collect the data(e.g. for highway scenario):
 ```
-python code/run.py --test False
+python collect_data/collect_highway.py 
 ```
-Test model:
+The collected data (state, action, reward, next_state, dones) are saved in:
 ```
-python code/run.py --test True
+buffers/
 ```
 You could define model type and which character to draw:
 ```
