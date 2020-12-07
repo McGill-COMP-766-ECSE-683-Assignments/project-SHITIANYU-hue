@@ -40,7 +40,7 @@ Settings can be adjusted with different arguments to run.py.
 
 The left one is using our method , the right one is using Noisy BCQ.
 
-1. **Highway scenario** : we found that our method has relative bigger mimum distance than Noisy BCQ while Noisy BCQ's policy is  more aggressive.
+1. **Highway scenario** : we found that our method has relative bigger minimum distance than Noisy BCQ while Noisy BCQ's policy is  more aggressive.
 
 <p float="left">
   <img src="video/h-safe.gif" width="400" />
