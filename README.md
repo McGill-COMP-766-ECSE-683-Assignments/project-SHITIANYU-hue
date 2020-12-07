@@ -27,14 +27,14 @@ The left one is using DDPG, the right one is using HER+DDPG.
 
 1. Z
 <p float="left">
-  <img src="video/ddpg-Z.gif" width="400" />
-  <img src="video/her-Z.gif" width="400" /> 
+  <img src="video/h-safe.gif" width="400" />
+  <img src="video/h-unsafe.gif" width="400" /> 
 </p>
 
 2. L
 <p float="left">
-  <img src="video/ddpg-L.gif" width="400" />
-  <img src="video/her-L.gif" width="400" /> 
+  <img src="video/p-safe.gif" width="400" />
+  <img src="video/p-unsafe.gif" width="400" /> 
 </p>
 3. U
 <p float="left">
