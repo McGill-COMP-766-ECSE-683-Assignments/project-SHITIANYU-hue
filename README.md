@@ -1,4 +1,4 @@
-# project
+# Final project
 
 # Assignment-2
 
@@ -55,6 +55,9 @@ The left one is using our method , the right one is using Noisy BCQ.
 
 [Here](https://github.com/McGill-COMP-766-ECSE-683-Assignments/assignment-2-SHITIANYU-hue/blob/main/ECSE683assignment2_TianyuShi.pdf)
 
+### Contact
+
+Tianyu Shi: tianyu.shi3@mail.mcgill.ca
 
 
 
