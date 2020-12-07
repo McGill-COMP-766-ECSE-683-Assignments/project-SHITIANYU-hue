@@ -29,7 +29,7 @@ python code/run.py --test True --model_type HER --character Z
 ```
 Settings can be adjusted with different arguments to run.py.
 
-### Baselines
+### Main Baselines
 
 **Noisy  BCQ**:  In  this  version,  we  consider  only  adding exploration  strategy  on  the  policy  from BCQ framework. However, it doesn’t have any safety guarantee. This version is more likely to explore even for unsafe actions.
 
